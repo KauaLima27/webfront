@@ -34,7 +34,7 @@ listaCompras.push("Maça")
 
 const titulo = document.getElementById("titulo")
 const nomeInput = document.getElementById("nome")
-cgionst resultado = document.getElementById("resultado")
+const resultado = document.getElementById("resultado")
 const resultadoEmail = document.getElementById("resultadoEmail")
 const resultadoTelefone = document.getElementById("resultadoTelefone")
 const resultadoEndereco = document.getElementById("resultadoEndereco")
