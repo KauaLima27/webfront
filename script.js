@@ -1,7 +1,8 @@
 /*
-Introdução git e JavaScript
 
-*/
+
+/*
+Introdução git e JavaScript
 
 
 
@@ -14,12 +15,38 @@ let idadeEsposa = "20"
 = atribuição 
 == comparar se é igual
 === comparar se é exatamente igual
-*/
+
+
+var isOld = true
+
+
+if (condition) {
+    
+}
+
+
+
 
 let listaCompras = []
 
 listaCompras.push("Maça")
+*/
 
-console.log(listaCompras.length)
+const titulo = document.getElementById("titulo")
+const nomeInput = document.getElementById("nome")
+cgionst resultado = document.getElementById("resultado")
+const resultadoEmail = document.getElementById("resultadoEmail")
+const resultadoTelefone = document.getElementById("resultadoTelefone")
+const resultadoEndereco = document.getElementById("resultadoEndereco")
 
-console.log(listaCompras)
+
+titulo.textContent = "Senai Cotia 2023"
+
+function salvar() {
+
+resultado.textContent = nomeInput.value
+resultadoEmail.textContent = email.value
+resultadoTelefone.textContent = telefone.value
+resultadoEndereco.textContent = endereco.value
+    
+}

@@ -3,12 +3,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Document</title>
 </head>
 <body>
 
-    <h1>Primeiro commit!</h1>
+    <h1 id="titulo"></h1>
 
+    Nome:<input id="nome" type="text">
+    E-mail:<input id="email" type="text">
+    Telefone:<input id="telefone" type="text">
+    Endereço:<input id="endereco" type="text">
+
+    <button onclick="salvar()">Salvar</button>
+
+    <h6 id="resultado"></h6>
+    <h6 id="resultadoEmail"></h6>
+    <h6 id="resultadoTelefone"></h6>
+    <h6 id="resultadoEndereco"></h6>
+    
     <script src="script.js"></script>
 </body>
 </html>
