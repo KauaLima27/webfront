@@ -8,14 +8,16 @@
 </head>
 <body>
 
-    Número1: <input type="number">
-    Número2: <input type="number">
+    Número1: <h4><input id="number1" type="number"></h4>
+    Número2: <h4><input id="number2" type="number"></h4>
     <div class="container">
-        <button>Somar</button>
-        <button>Subtrair</button>
-        <button>Dividir</button>
-        <button>Multiplicar</button>
+        <button onclick="calculo('somar')">Somar</button>
+        <button onclick="calculo('subtrair')">Subtrair</button>
+        <button onclick="calculo('dividir')">Dividir</button>
+        <button onclick="calculo('multiplicar')">Multiplicar</button>
     </div>
+    <h2 id="resultado">Resultado</h2>
     
+    <script src="calc.js"></script>
 </body>
 </html>
